@@ -16,4 +16,3 @@ Thought about using a python library more focused on finding the "minima and max
 
 ##assumptions and background
 It was unclear with the brief how to handle a day with only loss-making opportunities, it indicated only that a trade should return the most profitable result, I chose to make the primary function pure and return both positive and negative results, with the executing method interpreting the result.
-I regret the use of the negative rolling integer with -999999 for the profit variable, this is where python can be a little bit frustrating.
