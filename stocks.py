@@ -1,7 +1,7 @@
 def calculateprofit(price_array):
     length = len(price_array)
     i = 0
-    profit = 0
+    profit = -999999
 
     while i + 1 < length:
         maximum = max(price_array[1+i:])
